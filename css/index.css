@@ -2,10 +2,10 @@ body{
     background-color: #ffffff;
 }
 
-.sub_header{
+.sub-header{
     text-align: center;
     color: black;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -13,10 +13,20 @@ body{
 .text{
     color: black;
     font-size: 16px;
+    text-align: left;
 }
 
 .head{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 34px;
     color:black;
+}
+
+.sub-head{
+    color:black;
+    font-size: 24px;
+}
+
+.contact-form{
+    text-align: center;
 }
