@@ -30,3 +30,9 @@ body{
 .contact-form{
     text-align: center;
 }
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 59px 50px;
+}
