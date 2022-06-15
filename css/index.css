@@ -1,8 +1,8 @@
 body{
-    background-color: #ffffff;
+    background-color: #c29500;
 }
 
-.sub-header{
+.section-header{
     text-align: center;
     color: black;
     font-size: 20px;
@@ -35,4 +35,25 @@ body{
     display:grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 59px 50px;
+    margin: 10px;
+}
+
+#section{
+    margin: 50px;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+/*.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }*/
+
+.box{
+    margin:10px;
+    align-items: center;
+    text-align: center;
+    border: 1px lightslategray;
+    padding: 15px;
 }
