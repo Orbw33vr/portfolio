@@ -2,7 +2,7 @@ body{
     background-color: #c29500;
 }
 
-.section-header{
+.sect-header{
     text-align: center;
     color: black;
     font-size: 20px;
@@ -10,19 +10,19 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.text{
+p{
     color: black;
     font-size: 16px;
     text-align: left;
 }
 
-.head{
+.main-header{
     font-weight: bold;
     font-size: 34px;
     color:black;
 }
 
-.sub-head{
+.sub-header{
     color:black;
     font-size: 24px;
 }
@@ -31,14 +31,15 @@ body{
     text-align: center;
 }
 
-.wrapper{
+.proj-wrapper{
     display:grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 59px 50px;
-    margin: 10px;
+    margin: 50px;
+    border: 1px black solid;
 }
 
-#section{
+.wrapper{
     margin: 50px;
     border: 1px black solid;
     padding: 20px;
@@ -54,6 +55,11 @@ body{
     margin:10px;
     align-items: center;
     text-align: center;
-    border: 1px lightslategray;
+    border: 1px lightslategray solid;
     padding: 15px;
+}
+
+.head-image{
+    display: block;
+    margin-right: auto;
 }
