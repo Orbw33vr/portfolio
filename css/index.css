@@ -1,17 +1,74 @@
 body{
-    background-color: #c29500;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: beige;
+}
+
+.intro{
+    color:whitesmoke;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: rgba(255, 166, 0, 0.808);
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav ul li a{
+    color: rgba(255, 166, 0, 0.849);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav ul li:hover{
+    color:beige;
+    transition: 4s;
+}
+
+.button{
+    background-color: orange;
+    color: beige;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.button:hover{
+    transform: scale(1,2);
 }
 
 .sect-header{
     text-align: center;
-    color: black;
+    color: beige;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
 
 p{
-    color: black;
+    color: beige;
     font-size: 16px;
     text-align: left;
 }
@@ -19,11 +76,11 @@ p{
 .main-header{
     font-weight: bold;
     font-size: 34px;
-    color:black;
+    color:beige;
 }
 
 .sub-header{
-    color:black;
+    color:beige;
     font-size: 24px;
 }
 
@@ -36,30 +93,43 @@ p{
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 59px 50px;
     margin: 50px;
-    border: 1px black solid;
+    border: 1px transparent;
+    border-radius: 10px;
+    background-color: rgba(255, 166, 0, 0.555);
 }
 
 .wrapper{
     margin: 50px;
-    border: 1px black solid;
+    border: 1px transparent;
+    border-radius: 5px;
     padding: 20px;
+    background-color: rgba(255, 166, 0, 0.568);
 }
-
-/*.navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }*/
 
 .box{
     margin:10px;
     align-items: center;
     text-align: center;
     border: 1px lightslategray solid;
+    border-radius: 3px;
     padding: 15px;
 }
 
 .head-image{
     display: block;
     margin-right: auto;
+}
+
+.resume{
+    background-color: orange;
+    color: beige;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.resume:hover{
+    transform: scale(1,2);
 }
