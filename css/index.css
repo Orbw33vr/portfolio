@@ -1,10 +1,4 @@
-.sect-header{
-    text-align: center;
-    color: beige;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 p{
     color: beige;
@@ -23,27 +17,9 @@ p{
     font-size: 24px;
 }
 
-.contact-form{
-    text-align: center;
-}
 
-.proj-wrapper{
-    display:grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 59px 50px;
-    margin: 50px;
-    border: 1px transparent;
-    border-radius: 10px;
-    background-color: rgba(170, 170, 170, 0.356);
-}
 
-.wrapper{
-    margin: 50px;
-    border: 1px transparent;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgba(179, 179, 179, 0.404);
-}
+
 
 .box{
     margin:10px;
@@ -69,5 +45,5 @@ p{
 }
 
 .resume:hover{
-    transform: scale(1,2);
+    transform: scale(2,2);
 }

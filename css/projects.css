@@ -1,0 +1,9 @@
+.proj-wrapper{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 59px 50px;
+    margin: 50px;
+    border: 1px transparent;
+    border-radius: 10px;
+    background-color: rgba(170, 170, 170, 0.356);
+}
