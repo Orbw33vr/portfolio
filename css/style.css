@@ -1,0 +1,37 @@
+/* ABEDD8 = text
+46CDCF = buttons + titles + accents
+3D84A8 = wrappers
+48466D = background base color
+reverse the order for 'light-mode' */
+
+body{
+    background-image: linear-gradient(to bottom, #48466d, #48466d, #48466d, #48466d, #48466d, #48507a,
+     #475b86, #446692, #3980aa, #2d9abc, #2db3c9, #46cdcf);
+}
+
+p{
+    color: #ABEDD8;
+}
+
+h1{
+    color: #46CDCF;
+}
+h2{
+    color: #46CDCF;
+}
+h3{
+    color: #46CDCF;
+}
+h4{
+    color: #46CDCF;
+}
+h5{
+    color: #46CDCF;
+}
+
+.wrapper{
+    margin: 5% 10%;
+    border: 2px transparent;
+    border-radius:  5px; ;
+    background-color: #3d84a88c;
+}
