@@ -10,18 +10,31 @@ hr{
     margin: 3.125rem auto;
 }
 
+p{
+    float:right;
+}
+
 .logo{
     width: 15.625rem;
     height: 15.625rem;
+    position:absolute;
 }
 
 .profile-pic{
     height: 14rem;
     width: 14rem;
     border-radius: 100%;
-    float:right;
+    position:absolute;
 }
 
 .top-container{
     margin-top: 6.25rem;
+    position: relative;
 }
+
+.middle-container{
+    margin-top: 6.25rem;
+    position: relative;
+}
+
+/*Dark to light 112D4E, 3F72AF, DBE2EF, F9F7F7 */
