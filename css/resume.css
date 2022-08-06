@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    background-image: linear-gradient(to bottom, #dbe2ef, #e5e5f0, #ede8f1, #f2ecf1, #f6f1f3, #f7f3f4, #f8f5f5, #f9f7f7, #f9f7f7, #f9f7f7, #f9f7f7, #f9f7f7);
+    text-align: center;
+}
+
+hr{
+    border: dotted #3F72AF;
+    border-bottom: none;
+    margin: 3.125rem auto;
+}
+
+.logo{
+    width: 15.625rem;
+    height: 15.625rem;
+}
+
+.profile-pic{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
+    float:right;
+}
+
+.top-container{
+    margin-top: 6.25rem;
+}
