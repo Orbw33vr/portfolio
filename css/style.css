@@ -25,7 +25,7 @@ h3{
 }
 
 hr{
-    border: dotted #40514E 0.325rem;
+    border: dotted #2f8787 0.5rem;
     border-bottom: none;
     font-weight: bold;
     width: 4%;
@@ -39,9 +39,50 @@ p{
     margin-bottom: 3.125rem;
 }
 
+span{
+    color:orangered;
+}
+
 .top-container{
     margin: 6rem auto 0;
-    position: relative;
+    position:relative;
+}
+
+.words{
+    float: left;
+    position: absolute;
+    left: 21.875rem;
+    top: 6.25rem;
+}
+
+.selfie{
+    margin-left: 31.25rem;
+}
+
+.profile-pic{
+    border-radius: 100%;
+}
+
+.middle-container{
+    margin-bottom: 12.5rem;
+}
+
+.skill-row{
+    text-align: left;
+    line-height: 2;
+    margin: 6.25rem auto;
+    width: 50%;
+}
+
+.logo{
+    float: left;
+    height: 25%;
+    width: 25%;
+    margin-right: 50px;
+}
+
+.skill-desc{
+
 }
 
 .bottom-container{
