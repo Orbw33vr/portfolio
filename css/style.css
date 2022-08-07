@@ -44,7 +44,7 @@ span{
 }
 
 .top-container{
-    margin: 6rem auto 0;
+    margin: 12rem auto 14rem;
     position:relative;
 }
 
@@ -64,7 +64,7 @@ span{
 }
 
 .middle-container{
-    margin-bottom: 12.5rem;
+    margin: 12.5rem auto;
 }
 
 .skill-row{
@@ -79,10 +79,6 @@ span{
     height: 25%;
     width: 25%;
     margin-right: 50px;
-}
-
-.skill-desc{
-
 }
 
 .bottom-container{
