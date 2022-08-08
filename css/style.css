@@ -1,7 +1,9 @@
 body{
     margin:0;
     text-align:center;
-    background-image: linear-gradient(to bottom, #30e3ca, #65e8d3, #89ecdb, #a7f0e3, #c2f4eb, #cef6ee, #d9f7f2, #e4f9f5, #e4f9f5, #e4f9f5, #e4f9f5, #e4f9f5);
+    background-image: linear-gradient(to bottom, #30e3ca, #65e8d3, #89ecdb, #a7f0e3, #c2f4eb, #cef6ee, #d9f7f2, #e4f9f5, #e4f9f5, #e4f9f5, #e4f9f5, #e4f9f5),
+    url(images/bg-overlay.png);
+    /*background-repeat: no-repeat;*/
 }
 
 h1{
@@ -14,6 +16,7 @@ h2,
 h3{
     color: #40514E;
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0.1rem 0.1rem 0.3rem;
 }
 
 h2{
@@ -52,15 +55,20 @@ span{
     float: left;
     position: absolute;
     left: 21.875rem;
-    top: 6.25rem;
+    top: 10rem;
+    text-shadow: 0.1rem 0.1rem 0.3rem;
 }
 
 .selfie{
-    margin-left: 31.25rem;
+    margin:auto 14rem auto 52rem;
+    background-image: linear-gradient(to top, #30e3ca, #22d5c3, #16c7bc, #0eb9b4, #0cabab, #1f9f9f, #299393, #2f8787, #387977, #3d6c68);
+    border-radius: 6rem;
+    padding: 3rem;
 }
 
 .profile-pic{
     border-radius: 100%;
+    filter:drop-shadow(2rem 2rem 1rem);
 }
 
 .middle-container{
@@ -79,6 +87,7 @@ span{
     height: 25%;
     width: 25%;
     margin-right: 50px;
+    filter:drop-shadow(0.3rem 0.3rem 0.5rem);
 }
 
 .bottom-container{
