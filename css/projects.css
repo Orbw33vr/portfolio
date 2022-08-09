@@ -27,6 +27,13 @@ a:hover{
     color: #EAF6F6;
 }
 
+img{
+    height: 16.1rem;
+    width: 27rem;
+    margin-bottom:0;
+    border-radius: 2rem 2rem 0 0;
+}
+
 hr{
     border: dotted #2f8787 0.5rem;
     border-bottom: none;
@@ -34,18 +41,6 @@ hr{
     width: 4%;
     margin: 6.25rem auto;
     }
-
-.front-end-container{
-    margin: auto 2rem;
-}
-
-.react-native-container{
-    margin: auto 2rem;
-}
-
-.placeholder-container{
-    margin: auto 2rem;
-}
 
 .bottom-container{
     margin-top: 6rem;
@@ -57,4 +52,45 @@ hr{
     color:#EAF6F6;
     font-size: 0.75rem;
     padding: 1.25rem 0;
+}
+
+.wrapper{
+    margin: 5rem 2rem;
+    padding: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+}
+
+.card{
+    border: solid 0.2rem #40514e;
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: 0.1rem 0.1rem 0.1rem;
+}
+
+.image{
+    width: 100%;
+    display: block;
+}
+
+.content{
+    line-height: 1.5;
+    font-size: 0.7rem;
+    margin-top: 0;
+    padding: 0.5rem 1.3rem 2rem;
+    background-color: #0eb9b4;
+}
+
+.link{
+    padding: 1rem;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link:hover{
+    background-color: #40514E;
+    cursor: pointer;
 }
