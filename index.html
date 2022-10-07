@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="images\icons\fav-wht-t.ico">
+  <script src="https://kit.fontawesome.com/feb6565f7a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<title>Daquan Martin</title>
+</head>
+<!--Nav Bar Section-->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top"><img src="images\icons\symbol-wht-t.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Daquan .M.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://linktr.ee/Orbw33vr">Links</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--Title Section-->
+<section id="top">
+  <div class="top-container container-fluid text-center">
+    <h1 class="title-text dark-text familia-one mx-auto">DAQUAN M.</h1>
+  </div>
+</section>
+<!--Skills Selfie and About Section-->
+<section id="about">
+  <div class="middle-container container-fluid row">
+    <div class="skills-wrapper light-wrap col-lg-4 text-center mx-auto">
+      <h2 class="section-title light-text familia-two">Skills</h2>
+      <div class="img-container text-center">
+        <div class="img-wrapper row row-cols-3 mx-auto d-flex justify-content-around">
+          <img class="skills-img col" src="images\skills_logo\html-logo.png" alt="HTML logo">
+          <img class="skills-img col" src="images\skills_logo\css.logo.png" alt="CSS logo">
+          <img class="skills-img col" src="images\skills_logo\js-logo.png" alt="JavaScript logo">
+        </div>
+        <div class="img-wrapper row row-cols-3 mx-auto d-flex justify-content-around">
+          <img class="skills-img col" src="images\skills_logo\bootstrap-logo.png" alt="Bootstrap logo">
+          <img class="skills-img col" src="images\skills_logo\react-logo.png" alt="React Js logo">
+          <img class="skills-img col" src="images\skills_logo\wp-logo.png" alt="WordPress logo">
+        </div>
+      </div>
+      <p class="standard-text light-text familia-two skills-text">
+        I am presently proficient with HTML5, CSS3 <em>(Bootstrap 5)</em> and JavaScript <em>(React Framework)</em>. Additionally, I have experience with WordPress installation, configuration, theme modification, and content management.
+      </p>
+    </div>
+    <div class="about-wrapper dark-wrap col-lg-6 text-center mx-auto">
+      <img class="selfie" src="images\selfies\selfie-bW-Y-t.png" alt="Photo of Author">
+      <h2 class="section-title dark-text familia-one">Meet Daquan!</h2>
+      <p class="standard-text dark-text familia-two">
+        I'm Daquan. I am a Bachelor of IT Management student at Keiser University <em>(graduating in 2023)</em> with an Associate's degree in Information Technology. I'm also a Tampa-based freelance front-end web developer that creates amazingly
+        simple
+        websites from scratch or using WordPress.
+      </p>
+    </div>
+  </div>
+</section>
+<!--Projects and Contact Section-->
+<section id="projects">
+  <div class="bottom-container container-fluid row">
+    <div class="projects-wrapper dark-wrap col-lg-6 text-center mx-auto overflow-auto">
+      <h2 class="section-title dark-text familia-two">Projects</h2>
+      <div id="proj-carousel" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#proj-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#proj-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#proj-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images\skills_logo\tindog-logo.png" class="proj-img d-block w-50 mx-auto" alt="Tindog image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tindog</h5>
+              <p>Tinder for Dogs. A startup page mockup.</p>
+              <a href="404.html" class="btn btn-dark">Live Version</a>
+              <a href="https://github.com/Orbw33vr/Orbw33vr-Tindog" class="btn btn-dark" target="blank">Github Code</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images\logo\resized-img.png" class="proj-img d-block w-50 mx-auto" alt="logo image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Coming Soon!</h5>
+              <p>Still working on this, check back later.</p>
+              <a href="404.html" class="btn btn-dark">Live Version</a>
+              <a href="https://github.com/Orbw33vr" class="btn btn-dark" target="blank">Github Code</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images\logo\resized-img.png" class="proj-img d-block w-50 mx-auto" alt="logo image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Coming Soon!</h5>
+              <p>Still working on this, check back later.</p>
+              <a href="404.html" class="btn btn-dark">Live Version</a>
+              <a href="https://github.com/Orbw33vr" class="btn btn-dark" target="blank">Github Code</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#proj-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#proj-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="d-grid gap-2">
+        <a class="btn btn-light gh-butts" href="https://github.com/Orbw33vr" target="blank">View Others</a>
+      </div>
+    </div>
+    <div class="contact-wrapper light-wrap col-lg-4 text-center mx-auto">
+      <h2 class="section-title light-text familia-two">Lets Build Something!</h2>
+      <p class="standard-text light-text familia-two contact-text">
+        If you're an employer and want to employ me full-time, please contact me using the icons below. If you would like to contract me to create a website for you, please visit my Fiverr page for more details.
+      </p>
+      <a href="https://www.linkedin.com/in/daquan-martin-a9340223b" target="blank"><i class="fa-brands bjnt fa-2xl fa-linkedin-in"></i></a>
+      <a href="https://github.com/Orbw33vr" target="blank"><i class="fa-brands bjnt fa-2xl fa-github-alt"></i></a>
+      <a href="mailto:daquan.space@gmail.com"><i class="fa-solid bjnt fa-2xl fa-envelopes-bulk"></i></a>
+      <div class="d-grid gap-2">
+        <a href="https://www.fiverr.com/orbw33vr" class="btn btn-dark contact-btn" target="blank">Fiverr Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
